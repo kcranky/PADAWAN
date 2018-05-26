@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue May 22 23:43:35 2018
+# Process ID: 6988
+# Current directory: C:/Users/liamj/Documents/Vivado/Projects/padawan/padawan.runs/synth_1
+# Command line: vivado.exe -log padawan.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source padawan.tcl
+# Log file: C:/Users/liamj/Documents/Vivado/Projects/padawan/padawan.runs/synth_1/padawan.vds
+# Journal file: C:/Users/liamj/Documents/Vivado/Projects/padawan/padawan.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source padawan.tcl -notrace

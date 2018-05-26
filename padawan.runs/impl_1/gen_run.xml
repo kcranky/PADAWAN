@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1527025413">
+  <File Type="PWROPT-DCP" Name="padawan_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="padawan_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="padawan.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="padawan_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="padawan_reports.tcl"/>
+  <File Type="BG-DRC" Name="padawan.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="padawan_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="padawan_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="padawan.hwdef"/>
+  <File Type="OPT-DCP" Name="padawan_opt.dcp"/>
+  <File Type="OPT-DRC" Name="padawan_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="padawan_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="padawan_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="padawan_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="padawan_placed.dcp"/>
+  <File Type="PLACE-IO" Name="padawan_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="padawan_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="padawan_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="padawan_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="padawan_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="padawan_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="padawan_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="padawan_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="padawan_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="padawan_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="padawan_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="padawan_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="padawan.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="padawan_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="padawan_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="padawan_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="padawan_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="padawan_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="padawan_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="padawan.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="padawan_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="padawan.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="padawan_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="padawan.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="padawan_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="padawan.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="padawan_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="padawan_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="padawan_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="padawan_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="padawan_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="padawan_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="padawan_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="padawan_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="padawan.vdi"/>
+  <File Type="ROUTE-CLK" Name="padawan_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="padawan_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="padawan_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="padawan_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="padawan_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="padawan_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="padawan.nky"/>
+  <File Type="BITSTR-BMM" Name="padawan_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="padawan.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="padawan.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="padawan.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/AnalogXADC.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Nexys-4-DDR-Music-Looper/src/hdl/AnalogXADC.v"/>
+        <Attr Name="ImportTime" Val="1525898059"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hdl/pwm_module.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Nexys-4-DDR-Music-Looper/src/hdl/pwm_module.v"/>
+        <Attr Name="ImportTime" Val="1525898059"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/padawan.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0.xcix">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Nexys-4-DDR-Music-Looper/src/ip/clk_wiz_0.xcix"/>
+        <Attr Name="ImportTime" Val="1526845108"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Nexys-4-DDR-Music-Looper/src/ip/clk_wiz_0/clk_wiz_0.xci"/>
+        <Attr Name="ImportTime" Val="1526844998"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="padawan"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constraints/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Nexys-4-DDR-Music-Looper/src/constraints/Nexys4DDR_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1525898058"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="xadc_wiz_0"/>
+</GenRun>
